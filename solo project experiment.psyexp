@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="untitled" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="polygon" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="polygon" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="prime_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prime_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0,0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$prime" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextComponent name="fragment_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fragment_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="$delay" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$target_fragment" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse" plugin="None">
+        <Param val="submit_text" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <TextComponent name="submit_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="submit_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Click here to sumit" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <TextboxComponent name="textbox" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="None" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="textbox" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="visible" valType="str" updates="constant" name="overflow"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="Type here..." valType="str" updates="constant" name="placeholder"/>
+        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="list" updates="constant" name="speechPoint"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </TextboxComponent>
+    </Routine>
+    <Routine name="instuctions">
+      <RoutineSettingsComponent name="instuctions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instuctions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="In each trial you would first see a whole word (the prime), followed shortly by a partially completed word (the fragment). Your task is to correctly complete the fragment into a meaningful English word, using the prime as a potential contextual cue. &amp;#10;&amp;#10;Press space to begin the experiment" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Thank_you">
+      <RoutineSettingsComponent name="Thank_you" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Thank_you" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instuctions"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('prime_type', 'related '), ('prime', 'hospital '), ('target_full', 'doctor'), ('target_fragment', 'd__t_r'), ('SOA', np.float64(0.1)), ('correct_response', 'doctor '), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'library '), ('target_full', 'books '), ('target_fragment', 'b__k_'), ('SOA', np.float64(0.4)), ('correct_response', 'books '), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'classroom '), ('target_full', 'benches '), ('target_fragment', 'b_n__es'), ('SOA', np.float64(0.1)), ('correct_response', 'benches'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'school '), ('target_full', 'students '), ('target_fragment', 's__d__t_'), ('SOA', np.float64(0.4)), ('correct_response', 'students'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'playground '), ('target_full', 'slides '), ('target_fragment', 's_i_e_'), ('SOA', np.float64(0.1)), ('correct_response', 'slides'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'washroom'), ('target_full', 'shower'), ('target_fragment', 's_o_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'shower'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'jungle'), ('target_full', 'animal'), ('target_fragment', 'a__m_l'), ('SOA', np.float64(0.1)), ('correct_response', 'animal'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'music'), ('target_full', 'song'), ('target_fragment', 's__g'), ('SOA', np.float64(0.4)), ('correct_response', 'song'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'kitchen'), ('target_full', 'stove'), ('target_fragment', 's_o_e'), ('SOA', np.float64(0.1)), ('correct_response', 'stove'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'beach'), ('target_full', 'sand'), ('target_fragment', 's__d'), ('SOA', np.float64(0.4)), ('correct_response', 'sand'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'snow'), ('target_full', 'winter'), ('target_fragment', 'w_n__r'), ('SOA', np.float64(0.1)), ('correct_response', 'winter'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'laundry'), ('target_full', 'clothes '), ('target_fragment', 'c__t__s'), ('SOA', np.float64(0.4)), ('correct_response', 'clothes'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'computer'), ('target_full', 'machine'), ('target_fragment', 'm_c__n_'), ('SOA', np.float64(0.1)), ('correct_response', 'machine'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'artist'), ('target_full', 'paint'), ('target_fragment', 'p__nt'), ('SOA', np.float64(0.4)), ('correct_response', 'paint'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'farmer'), ('target_full', 'crop'), ('target_fragment', 'c__p'), ('SOA', np.float64(0.1)), ('correct_response', 'crop'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'pencil'), ('target_full', 'eraser'), ('target_fragment', 'e_a_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'eraser'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'light'), ('target_full', 'electricity'), ('target_fragment', 'e_e_t_i_i_y'), ('SOA', np.float64(0.1)), ('correct_response', 'electricity '), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'sunny'), ('target_full', 'warm'), ('target_fragment', 'w__m'), ('SOA', np.float64(0.4)), ('correct_response', 'warm'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'rain'), ('target_full', 'monsoon'), ('target_fragment', 'm_ns__n'), ('SOA', np.float64(0.1)), ('correct_response', 'monsoon'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'reflection'), ('target_full', 'mirror'), ('target_fragment', 'm_rr__'), ('SOA', np.float64(0.4)), ('correct_response', 'mirror'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'key'), ('target_full', 'lock '), ('target_fragment', 'l__k'), ('SOA', np.float64(0.1)), ('correct_response', 'lock'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'butter'), ('target_full', 'bread '), ('target_fragment', 'b_e_d'), ('SOA', np.float64(0.4)), ('correct_response', 'bread'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'shoe'), ('target_full', 'sock'), ('target_fragment', 's__k'), ('SOA', np.float64(0.1)), ('correct_response', 'sock'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'road'), ('target_full', 'traffic'), ('target_fragment', 't_a__ic'), ('SOA', np.float64(0.4)), ('correct_response', 'traffic'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'fork'), ('target_full', 'spoon'), ('target_fragment', 's___n'), ('SOA', np.float64(0.1)), ('correct_response', 'spoon'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'textbook'), ('target_full', 'chapter'), ('target_fragment', 'c_a_t_r'), ('SOA', np.float64(0.4)), ('correct_response', 'chapter'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'row'), ('target_full', 'column'), ('target_fragment', 'c_l__n'), ('SOA', np.float64(0.1)), ('correct_response', 'column'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'shampoo'), ('target_full', 'conditioner'), ('target_fragment', 'c_n_i_i_n_r'), ('SOA', np.float64(0.4)), ('correct_response', 'conditioner'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'clock'), ('target_full', 'time'), ('target_fragment', 't_m_'), ('SOA', np.float64(0.1)), ('correct_response', 'time'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'floor'), ('target_full', 'tile'), ('target_fragment', 't_l_'), ('SOA', np.float64(0.4)), ('correct_response', 'tile'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'board'), ('target_full', 'chalk'), ('target_fragment', 'c___k'), ('SOA', np.float64(0.1)), ('correct_response', 'chalk'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'mall'), ('target_full', 'store'), ('target_fragment', 's_o_e'), ('SOA', np.float64(0.4)), ('correct_response', 'store'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'shopping'), ('target_full', 'shop'), ('target_fragment', 's__p'), ('SOA', np.float64(0.1)), ('correct_response', 'shop'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'evening '), ('target_full', 'sunset'), ('target_fragment', 's_n_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'sunset'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'track'), ('target_full', 'race'), ('target_fragment', 'r_c_'), ('SOA', np.float64(0.1)), ('correct_response', 'race'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'data'), ('target_full', 'graph'), ('target_fragment', 'g_a_h'), ('SOA', np.float64(0.4)), ('correct_response', 'graph'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'athletics'), ('target_full', 'sport'), ('target_fragment', 's_o_t'), ('SOA', np.float64(0.1)), ('correct_response', 'sport'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'party'), ('target_full', 'dance'), ('target_fragment', 'd_n_e'), ('SOA', np.float64(0.4)), ('correct_response', 'dance'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'king'), ('target_full', 'queen'), ('target_fragment', 'q___n'), ('SOA', np.float64(0.1)), ('correct_response', 'queen'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'dessert'), ('target_full', 'sweet'), ('target_fragment', 's___t'), ('SOA', np.float64(0.4)), ('correct_response', 'sweet'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'call'), ('target_full', 'phone'), ('target_fragment', 'p_o_e'), ('SOA', np.float64(0.1)), ('correct_response', 'phone'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'camera'), ('target_full', 'picture'), ('target_fragment', 'p_c_u_e'), ('SOA', np.float64(0.4)), ('correct_response', 'picture'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'bride'), ('target_full', 'groom'), ('target_fragment', 'g___m'), ('SOA', np.float64(0.1)), ('correct_response', 'groom'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'table'), ('target_full', 'chair'), ('target_fragment', 'c_a_r'), ('SOA', np.float64(0.4)), ('correct_response', 'chair'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'bed'), ('target_full', 'pillow'), ('target_fragment', 'p_l_ow'), ('SOA', np.float64(0.1)), ('correct_response', 'pillow'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'fan'), ('target_full', 'light'), ('target_fragment', 'l_g_t'), ('SOA', np.float64(0.4)), ('correct_response', 'light'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'crayons'), ('target_full', 'colour'), ('target_fragment', 'c_l_u_'), ('SOA', np.float64(0.1)), ('correct_response', 'colour'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'mother'), ('target_full', 'father'), ('target_fragment', 'f_t_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'father'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'sky'), ('target_full', 'cloud'), ('target_fragment', 'c_o_d'), ('SOA', np.float64(0.1)), ('correct_response', 'cloud'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'sun'), ('target_full', 'star'), ('target_fragment', 's__r'), ('SOA', np.float64(0.4)), ('correct_response', 'star'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'fruit'), ('target_full', 'mango'), ('target_fragment', 'm_n_o'), ('SOA', np.float64(0.1)), ('correct_response', 'mango'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'cash'), ('target_full', 'money'), ('target_fragment', 'm_n_y'), ('SOA', np.float64(0.4)), ('correct_response', 'money'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'journey'), ('target_full', 'travel'), ('target_fragment', 't_a__l'), ('SOA', np.float64(0.1)), ('correct_response', 'travel'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'aeroplane'), ('target_full', 'airport'), ('target_fragment', 'a_r_o_t'), ('SOA', np.float64(0.4)), ('correct_response', 'airport'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'night'), ('target_full', 'moon'), ('target_fragment', 'm__n'), ('SOA', np.float64(0.1)), ('correct_response', 'moon'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'cake'), ('target_full', 'birthday'), ('target_fragment', 'b_r_h_a_'), ('SOA', np.float64(0.4)), ('correct_response', 'birthday'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'date'), ('target_full', 'day'), ('target_fragment', 'd_y'), ('SOA', np.float64(0.1)), ('correct_response', 'day'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'plant'), ('target_full', 'flower'), ('target_fragment', 'f_o_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'flower'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'related '), ('prime', 'knife'), ('target_full', 'chop'), ('target_fragment', 'c__p'), ('SOA', np.float64(0.1)), ('correct_response', 'chop'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'related '), ('prime', 'map'), ('target_full', 'atlas'), ('target_fragment', 'a_l_s'), ('SOA', np.float64(0.4)), ('correct_response', 'atlas'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'garden '), ('target_full', 'ocean '), ('target_fragment', 'o___n '), ('SOA', np.float64(0.4)), ('correct_response', 'ocean '), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'planet'), ('target_full', 'bottle'), ('target_fragment', 'b__t_e'), ('SOA', np.float64(0.1)), ('correct_response', 'bottle'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'sandwich '), ('target_full', 'games'), ('target_fragment', 'g_m_s'), ('SOA', np.float64(0.4)), ('correct_response', 'games'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'laptop '), ('target_full', 'pouch '), ('target_fragment', 'p_u_h'), ('SOA', np.float64(0.1)), ('correct_response', 'pouch '), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'bag '), ('target_full', 'biscuit'), ('target_fragment', 'b_sc_i_'), ('SOA', np.float64(0.4)), ('correct_response', 'biscuit'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'mountain'), ('target_full', 'street'), ('target_fragment', 's_r__t'), ('SOA', np.float64(0.1)), ('correct_response', 'street'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'river'), ('target_full', 'call'), ('target_fragment', 'c__l'), ('SOA', np.float64(0.4)), ('correct_response', 'call'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'bird'), ('target_full', 'fan'), ('target_fragment', 'f_n'), ('SOA', np.float64(0.1)), ('correct_response', 'fan'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'city'), ('target_full', 'feather'), ('target_fragment', 'f_a_h_r'), ('SOA', np.float64(0.4)), ('correct_response', 'feather'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'movie'), ('target_full', 'file'), ('target_fragment', 'f__e'), ('SOA', np.float64(0.1)), ('correct_response', 'file'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'popcorn'), ('target_full', 'nails'), ('target_fragment', 'n_i_s'), ('SOA', np.float64(0.4)), ('correct_response', 'nails'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'interview'), ('target_full', 'dollar'), ('target_fragment', 'd_l_a_'), ('SOA', np.float64(0.1)), ('correct_response', 'dollar'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'paper'), ('target_full', 'rock'), ('target_fragment', 'r__k'), ('SOA', np.float64(0.4)), ('correct_response', 'rock'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'napkin'), ('target_full', 'wave'), ('target_fragment', 'w__e'), ('SOA', np.float64(0.1)), ('correct_response', 'wave'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'candle'), ('target_full', 'drum'), ('target_fragment', 'd__m'), ('SOA', np.float64(0.4)), ('correct_response', 'drum'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'media'), ('target_full', 'hair'), ('target_fragment', 'h__r'), ('SOA', np.float64(0.1)), ('correct_response', 'hair'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'coffee'), ('target_full', 'puppet'), ('target_fragment', 'p_pp_t'), ('SOA', np.float64(0.4)), ('correct_response', 'puppet'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'tea'), ('target_full', 'duck'), ('target_fragment', 'du__'), ('SOA', np.float64(0.1)), ('correct_response', 'duck'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'shirt'), ('target_full', 'aquatic '), ('target_fragment', 'a_u_t_c'), ('SOA', np.float64(0.4)), ('correct_response', 'aquatic'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'physics'), ('target_full', 'germs'), ('target_fragment', 'g_r_s'), ('SOA', np.float64(0.1)), ('correct_response', 'germs'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'calculator'), ('target_full', 'lyrics'), ('target_fragment', 'l_r_c_'), ('SOA', np.float64(0.4)), ('correct_response', 'lyrics'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'keyboard'), ('target_full', 'lamp'), ('target_fragment', 'l__p'), ('SOA', np.float64(0.1)), ('correct_response', 'lamp'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'protein'), ('target_full', 'telephone'), ('target_fragment', 't_l_p_o_e'), ('SOA', np.float64(0.4)), ('correct_response', 'telephone'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'toothpaste'), ('target_full', 'mug'), ('target_fragment', 'm_g'), ('SOA', np.float64(0.1)), ('correct_response', 'mug'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'missile'), ('target_full', 'roses'), ('target_fragment', 'r_s_s'), ('SOA', np.float64(0.4)), ('correct_response', 'roses'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'skeleton'), ('target_full', 'drawer'), ('target_fragment', 'd_a_e_'), ('SOA', np.float64(0.1)), ('correct_response', 'drawer'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'guitar'), ('target_full', 'grid'), ('target_fragment', 'g__d'), ('SOA', np.float64(0.4)), ('correct_response', 'grid'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'dust'), ('target_full', 'soft'), ('target_fragment', 's__t'), ('SOA', np.float64(0.1)), ('correct_response', 'soft'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'bubbles'), ('target_full', 'closet'), ('target_fragment', 'c_o_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'closet'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'powder'), ('target_full', 'chicken'), ('target_fragment', 'c_i_k_n'), ('SOA', np.float64(0.1)), ('correct_response', 'chicken'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'turmeric'), ('target_full', 'sipper'), ('target_fragment', 's_p_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'sipper'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'perfume'), ('target_full', 'blanket'), ('target_fragment', 'b_an__e_'), ('SOA', np.float64(0.1)), ('correct_response', 'blanket'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'register'), ('target_full', 'flute'), ('target_fragment', 'fl__e'), ('SOA', np.float64(0.4)), ('correct_response', 'flute'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'flipflops'), ('target_full', 'battle'), ('target_fragment', 'b_t_l_'), ('SOA', np.float64(0.1)), ('correct_response', 'battle'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'window'), ('target_full', 'binary'), ('target_fragment', 'bi_a_y'), ('SOA', np.float64(0.4)), ('correct_response', 'binary'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'eye'), ('target_full', 'economics'), ('target_fragment', 'ec__o_i_s'), ('SOA', np.float64(0.1)), ('correct_response', 'economics'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'curtain'), ('target_full', 'wizard'), ('target_fragment', 'w__a_d'), ('SOA', np.float64(0.4)), ('correct_response', 'wizard'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'bracelet'), ('target_full', 'burger'), ('target_fragment', 'b_r_e_'), ('SOA', np.float64(0.1)), ('correct_response', 'burger'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'electron'), ('target_full', 'chart'), ('target_fragment', 'c_a_t'), ('SOA', np.float64(0.4)), ('correct_response', 'chart'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'spaceship'), ('target_full', 'game'), ('target_fragment', 'g_m_'), ('SOA', np.float64(0.1)), ('correct_response', 'game'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'fan'), ('target_full', 'maize'), ('target_fragment', 'm_i_e'), ('SOA', np.float64(0.4)), ('correct_response', 'maize'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'shelf'), ('target_full', 'motor'), ('target_fragment', 'm_t_r'), ('SOA', np.float64(0.1)), ('correct_response', 'motor'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'towel'), ('target_full', 'grass'), ('target_fragment', 'g_a_s'), ('SOA', np.float64(0.4)), ('correct_response', 'grass'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'ladder'), ('target_full', 'pitcher'), ('target_fragment', 'p_t_h_r'), ('SOA', np.float64(0.1)), ('correct_response', 'pitcher'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'carpet'), ('target_full', 'lightning'), ('target_fragment', 'l_g_t_n_'), ('SOA', np.float64(0.4)), ('correct_response', 'lightning'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'year'), ('target_full', 'milk'), ('target_fragment', 'm__k'), ('SOA', np.float64(0.1)), ('correct_response', 'milk'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'months'), ('target_full', 'high'), ('target_fragment', 'h_g_'), ('SOA', np.float64(0.4)), ('correct_response', 'high'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'numbers'), ('target_full', 'fire'), ('target_fragment', 'f_re'), ('SOA', np.float64(0.1)), ('correct_response', 'fire'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'pot'), ('target_full', 'headphone'), ('target_fragment', 'h_a_p_o_e'), ('SOA', np.float64(0.4)), ('correct_response', 'headphone'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'suitcase'), ('target_full', 'feet'), ('target_fragment', 'f_e_'), ('SOA', np.float64(0.1)), ('correct_response', 'feet'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'charger'), ('target_full', 'dinner'), ('target_fragment', 'd_n_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'dinner'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'skirt'), ('target_full', 'earbuds'), ('target_fragment', 'e_r_u_s'), ('SOA', np.float64(0.1)), ('correct_response', 'earbuds'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'shirt'), ('target_full', 'chips'), ('target_fragment', 'c_i_s'), ('SOA', np.float64(0.4)), ('correct_response', 'chips'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'breakfast'), ('target_full', 'dustbin'), ('target_fragment', 'd_s_b_n'), ('SOA', np.float64(0.1)), ('correct_response', 'dustbin'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'radio'), ('target_full', 'archer'), ('target_fragment', 'a_c_e_'), ('SOA', np.float64(0.4)), ('correct_response', 'archer'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'cereal '), ('target_full', 'ropes'), ('target_fragment', 'r_p_s'), ('SOA', np.float64(0.1)), ('correct_response', 'ropes'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'wallet'), ('target_full', 'pizza'), ('target_fragment', 'p_z_a'), ('SOA', np.float64(0.4)), ('correct_response', 'pizza'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'window'), ('target_full', 'cat'), ('target_fragment', 'c_t'), ('SOA', np.float64(0.1)), ('correct_response', 'cat'), ('delay', np.float64(0.6))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'lantern'), ('target_full', 'giant'), ('target_fragment', 'g_a_t'), ('SOA', np.float64(0.4)), ('correct_response', 'giant'), ('delay', np.float64(0.9))]), OrderedDict([('prime_type', 'unrelated '), ('prime', 'hammer'), ('target_full', 'fan'), ('target_fragment', 'f_n'), ('SOA', np.float64(0.1)), ('correct_response', 'fan'), ('delay', np.float64(0.6))])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="/Users/varadadaftary/Downloads/Word priming conditions file (solo project) - Sheet1.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="Thank_you"/>
+  </Flow>
+</PsychoPy2experiment>

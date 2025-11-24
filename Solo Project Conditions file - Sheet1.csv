@@ -1,0 +1,121 @@
+prime_type,prime,target_full,target_fragment,SOA,correct_response,delay
+related ,hospital ,doctor,d__t_r,0.1,doctor ,0.6
+related ,library ,books ,b__k_,0.4,books ,0.9
+related ,classroom ,benches ,b_n__es,0.1,benches,0.6
+related ,school ,students ,s__d__t_,0.4,students,0.9
+related ,playground ,slides ,s_i_e_,0.1,slides,0.6
+related ,washroom,shower,s_o_e_,0.4,shower,0.9
+related ,jungle,animal,a__m_l,0.1,animal,0.6
+related ,music,song,s__g,0.4,song,0.9
+related ,kitchen,stove,s_o_e,0.1,stove,0.6
+related ,beach,sand,s__d,0.4,sand,0.9
+related ,snow,winter,w_n__r,0.1,winter,0.6
+related ,laundry,clothes ,c__t__s,0.4,clothes,0.9
+related ,computer,machine,m_c__n_,0.1,machine,0.6
+related ,artist,paint,p__nt,0.4,paint,0.9
+related ,farmer,crop,c__p,0.1,crop,0.6
+related ,pencil,eraser,e_a_e_,0.4,eraser,0.9
+related ,light,electricity,e_e_t_i_i_y,0.1,electricity ,0.6
+related ,sunny,warm,w__m,0.4,warm,0.9
+related ,rain,monsoon,m_ns__n,0.1,monsoon,0.6
+related ,reflection,mirror,m_rr__,0.4,mirror,0.9
+related ,key,lock ,l__k,0.1,lock,0.6
+related ,butter,bread ,b_e_d,0.4,bread,0.9
+related ,shoe,sock,s__k,0.1,sock,0.6
+related ,road,traffic,t_a__ic,0.4,traffic,0.9
+related ,fork,spoon,s___n,0.1,spoon,0.6
+related ,textbook,chapter,c_a_t_r,0.4,chapter,0.9
+related ,row,column,c_l__n,0.1,column,0.6
+related ,shampoo,conditioner,c_n_i_i_n_r,0.4,conditioner,0.9
+related ,clock,time,t_m_,0.1,time,0.6
+related ,floor,tile,t_l_,0.4,tile,0.9
+related ,board,chalk,c___k,0.1,chalk,0.6
+related ,mall,store,s_o_e,0.4,store,0.9
+related ,shopping,shop,s__p,0.1,shop,0.6
+related ,evening ,sunset,s_n_e_,0.4,sunset,0.9
+related ,track,race,r_c_,0.1,race,0.6
+related ,data,graph,g_a_h,0.4,graph,0.9
+related ,athletics,sport,s_o_t,0.1,sport,0.6
+related ,party,dance,d_n_e,0.4,dance,0.9
+related ,king,queen,q___n,0.1,queen,0.6
+related ,dessert,sweet,s___t,0.4,sweet,0.9
+related ,call,phone,p_o_e,0.1,phone,0.6
+related ,camera,picture,p_c_u_e,0.4,picture,0.9
+related ,bride,groom,g___m,0.1,groom,0.6
+related ,table,chair,c_a_r,0.4,chair,0.9
+related ,bed,pillow,p_l_ow,0.1,pillow,0.6
+related ,fan,light,l_g_t,0.4,light,0.9
+related ,crayons,colour,c_l_u_,0.1,colour,0.6
+related ,mother,father,f_t_e_,0.4,father,0.9
+related ,sky,cloud,c_o_d,0.1,cloud,0.6
+related ,sun,star,s__r,0.4,star,0.9
+related ,fruit,mango,m_n_o,0.1,mango,0.6
+related ,cash,money,m_n_y,0.4,money,0.9
+related ,journey,travel,t_a__l,0.1,travel,0.6
+related ,aeroplane,airport,a_r_o_t,0.4,airport,0.9
+related ,night,moon,m__n,0.1,moon,0.6
+related ,cake,birthday,b_r_h_a_,0.4,birthday,0.9
+related ,date,day,d_y,0.1,day,0.6
+related ,plant,flower,f_o_e_,0.4,flower,0.9
+related ,knife,chop,c__p,0.1,chop,0.6
+related ,map,atlas,a_l_s,0.4,atlas,0.9
+unrelated ,garden ,ocean ,o___n ,0.4,ocean ,0.9
+unrelated ,planet,bottle,b__t_e,0.1,bottle,0.6
+unrelated ,sandwich ,games,g_m_s,0.4,games,0.9
+unrelated ,laptop ,pouch ,p_u_h,0.1,pouch ,0.6
+unrelated ,bag ,biscuit,b_sc_i_,0.4,biscuit,0.9
+unrelated ,mountain,street,s_r__t,0.1,street,0.6
+unrelated ,river,call,c__l,0.4,call,0.9
+unrelated ,bird,fan,f_n,0.1,fan,0.6
+unrelated ,city,feather,f_a_h_r,0.4,feather,0.9
+unrelated ,movie,file,f__e,0.1,file,0.6
+unrelated ,popcorn,nails,n_i_s,0.4,nails,0.9
+unrelated ,interview,dollar,d_l_a_,0.1,dollar,0.6
+unrelated ,paper,rock,r__k,0.4,rock,0.9
+unrelated ,napkin,wave,w__e,0.1,wave,0.6
+unrelated ,candle,drum,d__m,0.4,drum,0.9
+unrelated ,media,hair,h__r,0.1,hair,0.6
+unrelated ,coffee,puppet,p_pp_t,0.4,puppet,0.9
+unrelated ,tea,duck,du__,0.1,duck,0.6
+unrelated ,shirt,aquatic ,a_u_t_c,0.4,aquatic,0.9
+unrelated ,physics,germs,g_r_s,0.1,germs,0.6
+unrelated ,calculator,lyrics,l_r_c_,0.4,lyrics,0.9
+unrelated ,keyboard,lamp,l__p,0.1,lamp,0.6
+unrelated ,protein,telephone,t_l_p_o_e,0.4,telephone,0.9
+unrelated ,toothpaste,mug,m_g,0.1,mug,0.6
+unrelated ,missile,roses,r_s_s,0.4,roses,0.9
+unrelated ,skeleton,drawer,d_a_e_,0.1,drawer,0.6
+unrelated ,guitar,grid,g__d,0.4,grid,0.9
+unrelated ,dust,soft,s__t,0.1,soft,0.6
+unrelated ,bubbles,closet,c_o_e_,0.4,closet,0.9
+unrelated ,powder,chicken,c_i_k_n,0.1,chicken,0.6
+unrelated ,turmeric,sipper,s_p_e_,0.4,sipper,0.9
+unrelated ,perfume,blanket,b_an__e_,0.1,blanket,0.6
+unrelated ,register,flute,fl__e,0.4,flute,0.9
+unrelated ,flipflops,battle,b_t_l_,0.1,battle,0.6
+unrelated ,window,binary,bi_a_y,0.4,binary,0.9
+unrelated ,eye,economics,ec__o_i_s,0.1,economics,0.6
+unrelated ,curtain,wizard,w__a_d,0.4,wizard,0.9
+unrelated ,bracelet,burger,b_r_e_,0.1,burger,0.6
+unrelated ,electron,chart,c_a_t,0.4,chart,0.9
+unrelated ,spaceship,game,g_m_,0.1,game,0.6
+unrelated ,fan,maize,m_i_e,0.4,maize,0.9
+unrelated ,shelf,motor,m_t_r,0.1,motor,0.6
+unrelated ,towel,grass,g_a_s,0.4,grass,0.9
+unrelated ,ladder,pitcher,p_t_h_r,0.1,pitcher,0.6
+unrelated ,carpet,lightning,l_g_t_n_,0.4,lightning,0.9
+unrelated ,year,milk,m__k,0.1,milk,0.6
+unrelated ,months,high,h_g_,0.4,high,0.9
+unrelated ,numbers,fire,f_re,0.1,fire,0.6
+unrelated ,pot,headphone,h_a_p_o_e,0.4,headphone,0.9
+unrelated ,suitcase,feet,f_e_,0.1,feet,0.6
+unrelated ,charger,dinner,d_n_e_,0.4,dinner,0.9
+unrelated ,skirt,earbuds,e_r_u_s,0.1,earbuds,0.6
+unrelated ,shirt,chips,c_i_s,0.4,chips,0.9
+unrelated ,breakfast,dustbin,d_s_b_n,0.1,dustbin,0.6
+unrelated ,radio,archer,a_c_e_,0.4,archer,0.9
+unrelated ,cereal ,ropes,r_p_s,0.1,ropes,0.6
+unrelated ,wallet,pizza,p_z_a,0.4,pizza,0.9
+unrelated ,window,cat,c_t,0.1,cat,0.6
+unrelated ,lantern,giant,g_a_t,0.4,giant,0.9
+unrelated ,hammer,fan,f_n,0.1,fan,0.6
